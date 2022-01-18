@@ -1,13 +1,45 @@
 .header {
     max-width: 1200px;
     margin: 0 auto;
-    &-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        &__left-list {
-            display: flex;
-            align-items: center;
+    background-color: #000;
+    font-family: 'Assistant';
+    color: #fff;
+    .header-nav {
+        &__content {
+            width: calc( 100% / 3 );
+        }
+        &__left-item {
+            margin-right: 30px;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+        &__center {
+            font-family: 'Pinyon Script';
+            font-size: 2rem;
+        }
+        &__center-title {
+            text-align: center;
+        }
+        &__right-list {
+            justify-content: flex-end;
+        }
+        &__right-item {
+            margin-right: 30px;
+            font-weight: bold;
+            &:last-of-type {
+                margin-right: 0;
+            }
+            .img-wrapper {
+                margin-right: 10px;
+            }
+        }
+    }
+    .img-wrapper {
+        img {
+            width: 22px;
+            height: 20px;
+            object-fit: cover;
         }
     }
 }
