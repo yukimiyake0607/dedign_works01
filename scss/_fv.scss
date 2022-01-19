@@ -1,0 +1,28 @@
+.fv {
+    position: relative;
+    background-image: url(../img/トレース01_ファーストビュー.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .main-copy {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Poppins";
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        white-space: nowrap;
+        text-align: center;
+        &__big {
+            font-size: 13rem;
+        }
+        &__small {
+            font-size: 1.5rem;
+            letter-spacing: 0.3em;
+        }
+    }
+}
