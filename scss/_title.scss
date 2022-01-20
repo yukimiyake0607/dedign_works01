@@ -1,0 +1,19 @@
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    &-jp {
+        font-size: 1.9rem;
+    }
+    &-en {
+        font-size: 6.6rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        &__sub {
+            font-size: 2rem;
+            display: inline-block;
+            border-bottom: 3px solid #fff;
+        }
+    }
+}
