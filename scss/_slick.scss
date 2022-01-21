@@ -1,0 +1,54 @@
+.slider {
+    width: 94%;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.slick {
+    &-slider {
+        margin: 0 10px;
+    }
+
+    // 矢印の設定
+    &-prev,
+    &-next {
+        position: absolute;
+        bottom: 0;
+        cursor: pointer;
+        outline: none;
+        border-top: 2px solid #666;
+        border-right: 2px solid #666;
+        width: 15px;
+        height: 15px;
+    }
+    &-prev {
+        transform: rotate(-135deg);
+    }
+    &-next {
+        transform: rotate(45deg);
+    }
+
+    // ドットの設定
+    &-dots {
+        text-align: center;
+        margin: 20px 0 0 0;
+        li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        button {
+            color: transparent;
+            outline: none;
+            width: 8px;
+            height: 8px;
+            display: block;
+            background-color: #ccc;
+        }
+        .slick-active button {
+            background-color: #333;
+        }
+    }
+}
