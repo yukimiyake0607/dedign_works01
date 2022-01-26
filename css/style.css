@@ -306,4 +306,44 @@ a:hover {
 }
 .contents .r-content-subtitle {
   font-size: 1.8rem;
+}
+
+.footer {
+  padding: 100px 70px;
+  background-color: #000000;
+  color: #fff;
+}
+.footer-bottom {
+  margin-right: 110px;
+}
+.footer-bottom__item a {
+  display: block;
+  font-family: "Pinyon Script";
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+.footer-bottom__item small {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Assistant";
+  color: #4B4B4B;
+}
+.footer-top {
+  font-family: "Assistant";
+  font-weight: bold;
+}
+.footer-top__content {
+  margin-right: 50px;
+}
+.footer-top__title {
+  font-size: 1.2rem;
+  color: #4B4B4B;
+  margin-bottom: 30px;
+}
+.footer-top__body a {
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */

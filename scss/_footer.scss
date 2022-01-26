@@ -1,0 +1,43 @@
+.footer {
+    padding: 100px 70px;
+    background-color: #000000;
+    color: #fff;
+    &-bottom {
+        margin-right: 110px;
+        &__item {
+            a {
+                display: block;
+                font-family: "Pinyon Script";
+                font-size: 2rem;
+                line-height: 1;
+                margin-bottom: 30px;
+            }
+            small {
+                display: block;
+                font-size: 1.2rem;
+                font-weight: bold;
+                font-family: "Assistant";
+                color: #4B4B4B;
+            }
+        }
+    }
+    &-top {
+        font-family: "Assistant";
+        font-weight: bold;
+        &__content {
+            margin-right: 50px;
+        }
+        &__title {
+            font-size: 1.2rem;
+            color: #4B4B4B;
+            margin-bottom: 30px;
+        }
+        &__body {
+            a {
+                display: block;
+                text-decoration: underline;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
