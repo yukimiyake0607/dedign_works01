@@ -10,6 +10,7 @@ body {
   font-size: 1.3rem;
   color: #000000;
   font-family: "Assistant", sans-serif;
+  line-height: 1.8;
 }
 
 img {
@@ -52,6 +53,10 @@ a:hover {
 
 .jcsb {
   justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .slick-slider {
@@ -236,4 +241,69 @@ a:hover {
 
 .slick-list {
   overflow: visible;
+}
+
+.contents {
+  width: 100%;
+  height: 575px;
+  font-family: "Poppins";
+}
+.contents .l-content {
+  width: 50%;
+  padding: 100px 70px;
+}
+.contents .l-content__wrapper {
+  width: 100%;
+}
+.contents .l-content__wrapper-item {
+  width: 50%;
+}
+.contents .l-content__wrapper-item:nth-of-type(n + 3) {
+  margin-top: 56px;
+}
+.contents .l-content__title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.contents .l-content-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.contents .l-content .information {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #B2B2B2;
+}
+.contents .r-content {
+  width: 50%;
+  background-image: url("../img/store.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  font-family: "Assistant";
+}
+.contents .r-content .black-bg {
+  background-color: #000;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+.contents .r-content__title {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contents .r-content-title {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+}
+.contents .r-content-subtitle {
+  font-size: 1.8rem;
 }/*# sourceMappingURL=style.css.map */
